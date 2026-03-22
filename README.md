@@ -3,6 +3,8 @@
 This is my first project Physics Informed Machine Learning.
 This project presents a parametric physics-informed neural network (PINN-style model) for simulating steady 1D Casson fluid flow in a cylindrical pipe.
 
+https://github.com/user-attachments/assets/01e2cbf7-9460-4791-ac1c-c7d26ebf87af
+
 ## 🚀 Key Features
 
 - Parametric learning across viscosity values (μ_c)
@@ -30,13 +32,6 @@ The loss function enforces:
 This is a **physics-constrained neural network** rather than a classical PINN, as it enforces the constitutive relation instead of the full Navier–Stokes PDE.
 
 ## 📊 Results
-
 - Mean error: ~1e-3 m/s
 - Accurate plug region representation
 - Strong generalization to unseen viscosity values
-
-## 🎬 Visualization
-
-A Manim animation of the training and some results is included:
-
-`media/casson_parametric_PINN.mp4`
